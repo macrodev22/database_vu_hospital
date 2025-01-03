@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS victoria_university_hospital;
+USE victoria_university_hospital;
+
 CREATE TABLE patient_data (
  Patient_ID INT AUTO_INCREMENT PRIMARY KEY,
  First_Name VARCHAR(50),
